@@ -1,31 +1,9 @@
-# Node modules
-/node_modules/
+# Ignore node_modules folder
+/node_modules
 
-# Environment files
+# Ignore .env file
 .env
 
-# Logs
-*.log
-logs/
-
-# Dependency directories
-/node_modules/
-
-# Build output
-/dist/
-/build/
-
-# IDE files
-.vscode/
-/.idea/
-
-# OS-specific files
+# Ignore other commonly ignored files
 .DS_Store
-Thumbs.db
-
-# npm package-lock
-package-lock.json
-
-# Other
-*.env.local
-*.env.production
+npm-debug.log
